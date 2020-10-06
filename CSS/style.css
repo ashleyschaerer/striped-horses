@@ -1,0 +1,1046 @@
+html {
+  /***base size***/
+  font-size: 10px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *:before,* :after {
+ box-sizing: border-box;
+}
+
+body {
+  color: #262626;
+  font-family: 'Open Sans';
+  background-color: white;
+
+}
+
+
+
+/*** Mailchimp ***/
+
+#mc_embed_signup {
+/**background-color: red;**/
+margin: 0 auto;
+grid-column: span 6;
+display: grid;
+width: 482px;
+text-align: center;
+
+}
+
+#mc_embed_signup_scroll {
+  /**background-color: green;**/
+}
+
+.clear {
+  /**background-color: yellow;**/
+}
+
+.email {
+  background-color: white;
+  font-size: 1.7em;
+  border-radius: 8px;
+  width: 480px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 16px;
+  border: 1px;
+  border-color: #707E88;
+  border-style: solid;
+
+  grid-column: span 6;
+  display: grid;
+}
+
+
+.button {
+  background-color: #E3607F;
+  color: #FFFFFF;
+  font-size: 1.7em;
+  border-radius: 8px;
+  font-weight: bold;
+  width: 480px;
+  height: 50px;
+  border: 0;
+  box-shadow: 0 4px 8px 0 rgba(227, 96, 127, 0.4), 0 6px 20px 0 rgba(227, 96, 127, 0.4);
+
+
+}
+
+/*** Mailchimp ***/
+
+
+
+
+
+/***Bio***/
+
+.container {
+  background-color: #FFE2E2;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  /*width: 375px;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  /*grid-gap: 16px;*/
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.TopNav {
+  font-size: 1.6em;
+  font-weight: 700;
+  display: grid;
+  grid-column: span 6;
+  /*grid-gap: 16px;*/
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+
+.Logo {
+  display: grid;
+  margin: 0 auto;
+  padding-top: 48px;
+  grid-column: span 6;
+  align-items: center;
+  justify-content: center;
+}
+
+.NavLinks {
+  display: grid;
+  grid-gap: 48px;
+  margin: 0 auto;
+  grid-column: span 6;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 24px;
+  text-align: center;
+
+}
+
+
+
+/*MenuwithPDFicon {
+  grid-column: span 6;
+background-color: yellow;
+
+}*/
+
+/*.divNavLinks {
+  display: grid;
+  grid-gap: 32px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: red;
+  padding-top: 8px;
+  text-align: center;
+
+}*/
+
+.navmenu {
+  text-decoration: none;
+  color: #D2D6D2;
+
+
+}
+
+
+
+.menu {
+  margin-top: 10px;
+}
+
+
+.navmenubold {
+  text-decoration: none;
+  color: #FF6F61;
+}
+
+
+.navmenu:hover {
+  color: #FF6F61;
+
+}
+
+
+
+/*.PDFIconNavBar {
+  width: 12px;
+}*/
+
+.LinkProject:hover {
+  color: #FF6F61;
+}
+
+.Portrait {
+  margin: 0 auto;
+  padding-top: 88px;
+  padding-bottom: 20px;
+  grid-column: span 6;
+  display: grid;
+  width: 250px;
+  display: block;
+  align-items: center;
+
+}
+
+.Story {
+  /*padding: 16px;*/
+  grid-column: span 6;
+  max-width: 728px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+
+}
+
+
+
+
+.Link {
+  color: #FF6F61;
+  font-size: 1.6em;
+  font-weight: 300;
+  text-decoration: none;
+  padding-top: 16px;
+}
+
+h1 {
+  font-family: 'Open Sans';
+  font-size: 3.2em;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 88px;
+}
+
+/* If the screen size is 601px or more, set the font-size of h1 to 40px. */
+
+
+
+
+
+h2 {
+  font-family: 'Open Sans';
+  font-size: 2.4em;
+  font-weight: 600;
+  text-align: center;
+  line-height: 3.2;
+  padding-top: 40px;
+}
+
+h4{
+  font-size: 1.6em;
+  font-weight: 700;
+  /*background-color: red;*/
+  padding-bottom: 24px;
+
+  /*line-height: 4;*/
+}
+
+.biotext {
+  /*background-color: green;*/
+  padding-bottom: 72px;
+  padding-top: 16px;
+}
+
+.biotextmiddle {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.biotextdifferent {
+  padding-bottom: 72px;
+  /*background-color: yellow;*/
+}
+
+.biotextalso {
+  /*background-color: orange;*/
+}
+
+p {
+  font-size: 1.6em;
+  font-weight: 400;
+  line-height: 1.7;
+
+}
+
+.Feedback {
+  font-family: 'Open Sans';
+  font-size: 2.4em;
+  font-weight: 400;
+  font-style: italic;
+  color: #6B6D6B;
+}
+
+.FeedbackBold {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-style: italic;
+  color: #6B6D6B;
+}
+
+.Tagline {
+  font-size: 1.8em;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 16px;
+}
+
+.ExtraBold {
+  font-weight: 700;
+}
+
+
+
+footer {
+  background-color: #F2F6F2;
+  display: grid;
+  grid-gap: 16px;
+  grid-column: span 6;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 48px;
+  padding-bottom: 24px;
+  margin-top: 88px;
+  /*max-width: 980px;*/
+  /*margin: 0 auto;*/
+}
+
+
+
+
+.FooterText {
+  grid-column: span 6;
+  color: #6B6D6B;
+  /*max-width: 482px;*/
+}
+
+.ResumeandPdfIcon {
+  grid-column: span 6;
+}
+
+.pdfVector {
+  padding-left: 4px;
+}
+
+.icons {
+  margin-top: 32px;
+  /*background-color: blue;*/
+  display: grid;
+  /*grid-gap: 5px;*/
+ grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.EmailICON {
+  display: grid;
+  padding-top: 6px;
+  grid-column: 1fr;
+}
+
+.LinkedinICON {
+  display: grid;
+  grid-column: 1fr;
+}
+
+.GithubICON {
+  display: grid;
+  grid-column: 1fr;
+}
+
+
+
+.CopyrightAndButton {
+  display: grid;
+  grid-column: span 6;
+  grid-gap: 16px;
+  grid-template-columns: 5fr 1fr;
+  /*background-color: yellow;*/
+}
+
+.Copyright {
+  font-family: 'Open Sans';
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #6B6D6B;
+  /*background-color: orange;*/
+  padding-top: 12px;
+}
+
+
+.Chapter {
+  color: #FF6F61;
+}
+
+
+
+
+
+/***homepage***/
+
+
+
+.Hero {
+  /*background-color: orange;*/
+  /*padding-top: 40px;*/
+  display: grid;
+  margin: 0 auto;
+  grid-column: span 6;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+
+
+}
+
+.Ashley {
+  font-size: 3.2em;
+  font-weight: 600;
+  font-family: 'Open Sans';
+  padding-left: 40px;
+  /*background-color: blue;*/
+}
+
+.AshleyCoral {
+  color: #FF6F61;
+}
+
+.HandIcon {
+  padding-right: 30px;
+  padding-bottom: 5px;
+}
+
+.WavingHand {
+  width: 50px;
+}
+
+.IntroductionStatement {
+  display: grid;
+  grid-column: span 6;
+  margin: 0 auto;
+  font-weight: 700;
+  font-family: 'Open Sans';
+
+}
+
+.IntroductionStatementTWO {
+  padding-top: 8px;
+  display: grid;
+  margin: 0 auto;
+  grid-column: span 6;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  grid-template-columns: 4fr 2fr;
+  /*background-color: green;*/
+
+}
+
+.Statement {
+  /*margin-top: 40px;*/
+  /*background-color: red;*/
+  padding-top: 40px;
+  text-align: center;
+  /*padding-left: 17px;
+  padding-right: 18px;*/
+  padding-bottom: 56px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 1.7em;
+  grid-column: span 6;
+  /*margin-bottom: 32px;*/
+  max-width: 1312px;
+  margin: 0 auto;
+
+
+}
+
+.StatementBold {
+  font-weight: 600;
+}
+
+
+
+.LinkProject {
+  text-decoration: none;
+  color: #262626;
+}
+
+.all-work {
+  margin-left: 30px;
+  margin-right: 30px;
+    display: grid;
+  grid-column: span 6;
+}
+
+.HomepageHeroImage {
+  /*box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);*/
+  /*max-width: 980px;*/
+  /*width: 100%;*/
+  transition: transform .3s;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+
+
+}
+
+.HomepageHeroImage02 {
+  /*box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);*/
+  /*max-width: 980px;*/
+  /*width: 100%;*/
+  transition: transform .3s;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+
+
+.LinkProjectCaseStudy {
+  text-decoration: none;
+  color: #262626;
+}
+
+/*.LinkProjectCaseStudy:hover {
+  color: #FF6F61;
+}*/
+
+.ProjectTextBold {
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+
+  line-height: 2.2;
+}
+
+
+
+
+
+
+/* Media Queries */
+
+
+@media screen and (min-width: 375px){
+
+
+
+  .all-work {
+    display: flex;
+    flex-wrap: wrap;
+    /*background-color: yellow;*/
+    /*justify-content: center;
+    align-items: center;*/
+    max-width: 720px;
+    /*max-width: 1224px;*/
+    margin: 0 auto;
+
+    }
+
+  .ProjectText {
+    margin-top: 10px;
+    display: grid;
+    grid-column: span 6;
+    text-align: center;
+
+  }
+
+  .ProjectTextCat {
+    margin-top: 22px;
+
+    display: grid;
+    grid-column: span 6;
+    text-align: center;
+
+  }
+
+  .HomepageHeroImage {
+    /*width: 530px;*/
+    margin: 0 auto;
+    width: 90%;
+
+    display: block;
+    padding-top: 20px;
+  }
+  .HomepageHeroImage02 {
+    /*width: 420px;*/
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+    padding-top: 20px;
+  }
+
+  .HomepageHeroImage04 {
+    /*width: 420px;*/
+    margin: 0 auto;
+    width: 70%;
+    display: block;
+    margin-top: 20px;
+  }
+
+  .Project {
+    /*height: 310px;*/
+    background-color: #F2F6F2;
+    border-radius: 2px;
+    height: 350px;
+    width: 350px;
+    display: grid;
+    grid-column: span 6;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .Project:hover {
+    background-color: #FF6F61;
+  }
+
+  .Project02 {
+    /*height: 300px;*/
+    background-color: #F2F6F2;
+    border-radius: 2px;
+    height: 350px;
+    width: 350px;
+    display: grid;
+    grid-column: span 6;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    /*padding-top: 50px;*/
+  }
+  .Project02:hover {
+    background-color: #FF6F61;
+  }
+
+  .Project03 {
+    /*height: 310px;*/
+    background-color: #F2F6F2;
+    height: 350px;
+    width: 350px;
+    border-radius: 2px;
+    display: grid;
+    grid-column: span 6;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+  }
+
+  .Project03:hover {
+    background-color: #FF6F61;
+  }
+
+  .Project04 {
+    /*height: 300px;*/
+    background-color: #F2F6F2;
+    height: 350px;
+    width: 350px;
+    border-radius: 2px;
+    display: grid;
+    grid-column: span 6;
+    margin: 0 auto;
+  }
+
+  .Project04:hover {
+    background-color: #FF6F61;
+  }
+
+.Story  {
+  padding-top: 50px;
+}
+
+  /*.container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }*/
+
+.Title {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.PaddingProcessDetails {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.GridEmail {
+  margin-top: 40px;
+}
+
+.ResumeandPdfIcon {
+  margin-top: 40px;
+}
+
+.CopyrightAndButton {
+  margin-top: 48px;
+}
+
+.icons {
+  padding-top: 16px;
+}
+
+}
+
+
+
+
+
+@media screen and (min-width: 991px){
+
+
+
+  /***  ***/
+
+
+  .ProjectText {
+    margin-top: 40px;
+    display: grid;
+    grid-column: span 6;
+    text-align: center;
+
+  }
+
+  .ProjectTextCat {
+    margin-top: 52px;
+    display: grid;
+    grid-column: span 6;
+    text-align: center;
+
+  }
+
+  .all-work {
+    display: flex;
+    flex-wrap: wrap;
+    /*background-color: yellow;*/
+    /*justify-content: center;
+    align-items: center;*/
+    max-width: 1020px;
+    /*max-width: 1224px;*/
+    margin: 0 auto;
+
+    }
+
+    .Project {
+      width: 500px;
+      /*margin-right: 100px;*/
+      background-color: #F2F6F2;
+      height: 500px;
+      border-radius: 2px;
+
+
+    }
+
+    .Project:hover {
+      background-color: #FF6F61;
+    }
+
+    .Project02 {
+      width: 500px;
+      /*background-color: green;*/
+      background-color: #F2F6F2;
+      padding-top: 5px;
+      height: 500px;
+      margin-bottom: 10px;
+      border-radius: 2px;
+
+      /*margin-right: 50px;*/
+    }
+
+    .Project02:hover {
+      background-color: #FF6F61;
+    }
+
+    .Project03 {
+      width: 500px;
+      /*margin-right: 100px;*/
+      background-color: #F2F6F2;
+      height: 500px;
+      /*margin-top: 64px;*/
+      border-radius: 2px;
+    }
+
+    .Project03:hover {
+      background-color: #FF6F61;
+    }
+
+    .Project04 {
+      width: 500px;
+      background-color: #F2F6F2;
+      /*background-color: blue;*/
+      padding-top: 5px;
+      height: 500px;
+      margin-bottom: 10px;
+      /*margin-right: 50px;*/
+      /*margin-top: 64px;*/
+      border-radius: 2px;
+    }
+
+    .Project04:hover {
+      background-color: #FF6F61;
+    }
+
+  /*  .Project03 {
+      width: 520px;
+      background-color: blue;
+      padding-top: 5px;
+      height: 500px;
+      margin-bottom: 10px;
+      margin-right: 50px;
+      margin-top: 300px;
+    }*/
+
+      .HomepageHeroImage {
+        width: 530px;
+        margin: 0 auto;
+        display: block;
+        padding-top: 45px;
+      }
+      .HomepageHeroImage02 {
+        width: 420px;
+        margin: 0 auto;
+        display: block;
+        padding-top: 40px;
+      }
+
+      .HomepageHeroImage04 {
+        width: 370px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+      }
+
+
+
+  .WholeProcessBG {
+   padding-bottom: 128px;
+  }
+
+
+  .Divider {
+    /*margin-top: 178px;*/
+    margin-top: 128px;
+
+  }
+
+
+
+
+
+  .Tagline {
+
+    margin-bottom: 44px;
+    margin-top: 16px;
+  }
+
+  .Portrait {
+    padding-top: 190px;
+
+  }
+
+  .Story {
+    padding-top: 100px;
+  }
+
+
+h1 {
+  padding-top: 190px;
+
+}
+
+/*h2 {
+
+  padding-top: 200px;
+}*/
+
+.Statement {
+  padding-bottom: 150px;
+  font-size: 2em;
+  padding-top: 72px;
+}
+
+
+.IntroductionStatement {
+  font-size: 4.8em;
+}
+
+.Ashley {
+  font-size: 4em;
+}
+
+
+
+.HeroPage {
+  font-size: 4em;
+}
+
+.Tagline {
+  font-size: 2.4em;
+}
+
+
+
+.DashboardCaseStudy {
+  max-width: 980px;
+  margin-top: 64px;
+}
+
+.RoleAndTool {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  padding-left: 230px;
+  padding-right: 230px;
+  grid-gap: 16px;
+  height: 192px;
+  margin-top: 64px;
+
+}
+
+
+.Role {
+  display: grid;
+  grid-column: span 2;
+  /*background-color: yellow;*/
+  margin: 0 auto;
+}
+
+.Tool {
+  display: grid;
+  grid-column: span 2;
+  /*background-color: pink;*/
+  margin: 0 auto;
+}
+
+.prototype-button {
+  display: grid;
+  grid-column: span 2;
+  margin: 0 auto;
+  padding-bottom: 10px;
+
+}
+
+h2 {
+  /*margin-top: 180px;*/
+  margin-top: 88px;
+}
+
+.BackToTopButtonEnd {
+  display: grid;
+  grid-template-columns: 2fr;
+  margin-top: 80px
+}
+
+.BackToTopButton {
+  display: grid;
+  grid-column: span 6;
+  padding-left: 720px;
+}
+
+
+footer {
+  margin-top: 190px;
+
+}
+
+.gridfooter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  /*padding-left: 230px;
+  padding-right: 230px;*/
+  width: 980px;
+  margin: 0 auto;
+
+}
+
+.GridFooterText {
+  display: grid;
+  grid-column: span 3;
+  /*background-color: yellow;*/
+  padding-top: 40px;
+}
+
+.ResumeandPdfIcon {
+  display: grid;
+  grid-column: span 5;
+  /*background-color: pink;*/
+  margin-right: 630px;
+
+}
+
+/*.GridEmail {
+  background-color: orange;
+  display: grid;
+  grid-column: span 3;
+  text-align: right;
+  margin-left: 250px;
+  margin-bottom: 50px;
+  padding-top: 5px;
+}*/
+
+
+.icons {
+  /*background-color: lightblue;*/
+  display: grid;
+  grid-column: span 1;
+  grid-template-columns: 2fr 2fr 2fr;
+  padding-left: 30px;
+  margin: 0 auto;
+  padding-top: 42px;
+  grid-gap: 32px;
+
+}
+
+.EmailICON {
+  display: grid;
+  grid-column: 2fr;
+}
+
+.LinkedinICON {
+  display: grid;
+  grid-column: 2fr;
+}
+
+.GithubICON {
+  display: grid;
+  grid-column: 2fr;
+}
+
+
+.CopyrightAndButton {
+  /*background-color: lightgreen;*/
+}
+
+.backtotopfooter {
+  display: none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width: 1199px){
+
+
+
+}
+
+
+
+
+
+/* Media Query */
