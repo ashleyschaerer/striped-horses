@@ -91,8 +91,8 @@ text-align: center;
 }
 
 .TopNav {
-  font-size: 1.6em;
-  font-weight: 700;
+  /*font-size: 1.6em;
+  font-weight: 700;*/
   display: grid;
   grid-column: span 6;
   /*grid-gap: 16px;*/
@@ -104,13 +104,13 @@ text-align: center;
 .Logo {
   display: grid;
   margin: 0 auto;
-  padding-top: 48px;
+  padding-top: 18px;
   grid-column: span 6;
   align-items: center;
   justify-content: center;
 }
 
-.NavLinks {
+/*.NavLinks {
   display: grid;
   grid-gap: 48px;
   margin: 0 auto;
@@ -123,27 +123,9 @@ text-align: center;
 
 
 
-/*MenuwithPDFicon {
-  grid-column: span 6;
-background-color: yellow;
-
-}*/
-
-/*.divNavLinks {
-  display: grid;
-  grid-gap: 32px;
-  margin: 0 auto;
-  grid-template-columns: 1fr 1fr 1fr;
-  background-color: red;
-  padding-top: 8px;
-  text-align: center;
-
-}*/
-
 .navmenu {
   text-decoration: none;
   color: #D2D6D2;
-
 
 }
 
@@ -167,13 +149,9 @@ background-color: yellow;
 
 
 
-/*.PDFIconNavBar {
-  width: 12px;
-}*/
-
 .LinkProject:hover {
   color: #FF6F61;
-}
+}*/
 
 .Portrait {
   margin: 0 auto;
@@ -398,26 +376,6 @@ footer {
 
 }
 
-.Ashley {
-  font-size: 3.2em;
-  font-weight: 600;
-  font-family: 'Open Sans';
-  padding-left: 40px;
-  /*background-color: blue;*/
-}
-
-.AshleyCoral {
-  color: #FF6F61;
-}
-
-.HandIcon {
-  padding-right: 30px;
-  padding-bottom: 5px;
-}
-
-.WavingHand {
-  width: 50px;
-}
 
 .IntroductionStatement {
   display: grid;
@@ -428,42 +386,23 @@ footer {
 
 }
 
-.IntroductionStatementTWO {
-  padding-top: 8px;
-  display: grid;
-  margin: 0 auto;
-  grid-column: span 6;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  grid-template-columns: 4fr 2fr;
-  /*background-color: green;*/
-
-}
-
 .Statement {
   /*margin-top: 40px;*/
   /*background-color: red;*/
-  padding-top: 40px;
+  padding-top: 42px;
+  color: #707E88;
   text-align: center;
   /*padding-left: 17px;
   padding-right: 18px;*/
-  padding-bottom: 56px;
+  padding-bottom: 150px;
   font-family: 'Open Sans';
   font-weight: 400;
-  font-size: 1.7em;
   grid-column: span 6;
   /*margin-bottom: 32px;*/
   max-width: 1312px;
   margin: 0 auto;
 
-
 }
-
-.StatementBold {
-  font-weight: 600;
-}
-
 
 
 .LinkProject {
@@ -849,7 +788,7 @@ footer {
 
 
 h1 {
-  padding-top: 190px;
+  padding-top: 96px;
 
 }
 
@@ -859,18 +798,15 @@ h1 {
 }*/
 
 .Statement {
-  padding-bottom: 150px;
   font-size: 2em;
+ padding-bottom: 150px;
   padding-top: 72px;
+  color: #707E88;
 }
 
 
 .IntroductionStatement {
   font-size: 4.8em;
-}
-
-.Ashley {
-  font-size: 4em;
 }
 
 
@@ -884,48 +820,7 @@ h1 {
 }
 
 
-
-.DashboardCaseStudy {
-  max-width: 980px;
-  margin-top: 64px;
-}
-
-.RoleAndTool {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
-  padding-left: 230px;
-  padding-right: 230px;
-  grid-gap: 16px;
-  height: 192px;
-  margin-top: 64px;
-
-}
-
-
-.Role {
-  display: grid;
-  grid-column: span 2;
-  /*background-color: yellow;*/
-  margin: 0 auto;
-}
-
-.Tool {
-  display: grid;
-  grid-column: span 2;
-  /*background-color: pink;*/
-  margin: 0 auto;
-}
-
-.prototype-button {
-  display: grid;
-  grid-column: span 2;
-  margin: 0 auto;
-  padding-bottom: 10px;
-
-}
-
 h2 {
-  /*margin-top: 180px;*/
   margin-top: 88px;
 }
 
