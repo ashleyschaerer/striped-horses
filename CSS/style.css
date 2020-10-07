@@ -108,48 +108,7 @@ text-align: center;
   justify-content: center;
 }
 
-/*.NavLinks {
-  display: grid;
-  grid-gap: 48px;
-  margin: 0 auto;
-  grid-column: span 6;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 24px;
-  text-align: center;
 
-}
-
-
-
-.navmenu {
-  text-decoration: none;
-  color: #D2D6D2;
-
-}
-
-
-
-.menu {
-  margin-top: 10px;
-}
-
-
-.navmenubold {
-  text-decoration: none;
-  color: #FF6F61;
-}
-
-
-.navmenu:hover {
-  color: #FF6F61;
-
-}
-
-
-
-.LinkProject:hover {
-  color: #FF6F61;
-}*/
 
 .Portrait {
   margin: 0 auto;
@@ -186,6 +145,7 @@ text-align: center;
 
 h1 {
   font-family: 'Open Sans';
+  color: #3E4951;
   font-size: 3.2em;
   font-weight: 600;
   text-align: center;
