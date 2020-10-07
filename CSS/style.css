@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  color: #262626;
+  color: #red;
   font-family: 'Open Sans';
   background-color: white;
 
@@ -205,6 +205,13 @@ h2 {
   text-align: center;
   line-height: 3.2;
   padding-top: 40px;
+}
+
+h3 {
+  font-family: 'Open Sans';
+  color: #E3607F;
+  font-size: 2.6em;
+  font-weight: 700;
 }
 
 h4{
@@ -404,26 +411,15 @@ footer {
   color: #262626;
 }
 
-.all-work {
+.feature {
   margin-left: 30px;
   margin-right: 30px;
     display: grid;
   grid-column: span 6;
 }
 
-.HomepageHeroImage {
-  /*box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);*/
-  /*max-width: 980px;*/
-  /*width: 100%;*/
-  transition: transform .3s;
-  width: 90%;
-  margin: 0 auto;
-  display: block;
 
-
-}
-
-.HomepageHeroImage02 {
+.screen-image {
   /*box-shadow: 0 4px 8px 0 rgba(118, 120, 118, 0.2), 0 6px 20px 0 rgba(118, 120, 118, 0.2);*/
   /*max-width: 980px;*/
   /*width: 100%;*/
@@ -465,7 +461,7 @@ footer {
 
 
 
-  .all-work {
+  .feature {
     display: flex;
     flex-wrap: wrap;
     /*background-color: yellow;*/
@@ -485,8 +481,14 @@ footer {
 
   }
 
-  .ProjectTextCat {
-    margin-top: 22px;
+  .FeatureHeader {
+    text-align: center;
+    margin-top: 16px;
+  }
+
+  .FeatureBody {
+    color: #707E88;
+    font-size: 2em;
 
     display: grid;
     grid-column: span 6;
@@ -494,7 +496,8 @@ footer {
 
   }
 
-  .HomepageHeroImage {
+
+  .screen-image {
     /*width: 530px;*/
     margin: 0 auto;
     width: 80%;
@@ -502,53 +505,12 @@ footer {
     display: block;
     padding-top: 20px;
   }
-  .HomepageHeroImage02 {
-    /*width: 420px;*/
-    margin: 0 auto;
-    width: 80%;
-    display: block;
-    padding-top: 20px;
-  }
 
-  .HomepageHeroImage04 {
-    /*width: 420px;*/
-    margin: 0 auto;
-    width: 80%;
-    display: block;
-    padding-top: 20px;
-  }
 
-  .Project {
+
+  .mobile-screen {
     /*height: 310px;*/
-    background-color: #F2F6F2;
-    border-radius: 2px;
-    height: 350px;
-    width: 350px;
-    display: grid;
-    grid-column: span 6;
-    margin: 0 auto;
-    margin-bottom: 10px;
-  }
-
-
-
-  .Project02 {
-    /*height: 300px;*/
-    background-color: #F2F6F2;
-    border-radius: 2px;
-    height: 350px;
-    width: 350px;
-    display: grid;
-    grid-column: span 6;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    /*padding-top: 50px;*/
-  }
-
-
-  .Project03 {
-    /*height: 310px;*/
-    height: 350px;
+    height: 688px;
     width: 350px;
     border-radius: 2px;
     display: grid;
@@ -556,18 +518,6 @@ footer {
     margin: 0 auto;
     /*margin-bottom: 10px;*/
 
-  }
-
-
-
-  .Project04 {
-    /*height: 300px;*/
-    height: 350px;
-    width: 350px;
-    border-radius: 2px;
-    display: grid;
-    grid-column: span 6;
-    margin: 0 auto;
   }
 
 
@@ -626,16 +576,21 @@ footer {
     text-align: center;
 
   }
+  .FeatureHeader {
+    text-align: center;
+    margin-top: 40px;
+  }
 
-  .ProjectTextCat {
-    margin-top: 52px;
+  .FeatureBody {
+    color: #707E88;
+    font-size: 2em;
     display: grid;
     grid-column: span 6;
     text-align: center;
 
   }
 
-  .all-work {
+  .feature {
     display: flex;
     flex-wrap: wrap;
     /*background-color: yellow;*/
@@ -675,46 +630,20 @@ footer {
 
 
 
-    .Project03 {
+    .mobile-screen {
       width: 300px;
-      height: 500px;
-      border-radius: 2px;
+      height: 720px;
+      margin: 20px;
     }
 
 
-
-    .Project04 {
-      width: 300px;
-      /*background-color: blue;*/
-      /*padding-top: 5px;*/
-      height: 500px;
-      margin-bottom: 10px;
-      /*margin-right: 50px;*/
-      /*margin-top: 64px;*/
-      border-radius: 2px;
-    }
-
-
-      .HomepageHeroImage {
-        width: 280px;
-        margin: 0 auto;
-        display: block;
-        padding-top: 40px;
-      }
-      .HomepageHeroImage02 {
+    .screen-image {
         width: 280px;
         margin: 0 auto;
         display: block;
         padding-top: 40px;
       }
 
-      .HomepageHeroImage04 {
-        width: 280px;
-      /*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-        display: block;
-        margin: 0 auto;
-      padding-top: 40px;
-      }
 
 
 
