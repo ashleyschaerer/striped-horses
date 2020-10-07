@@ -146,10 +146,13 @@ text-align: center;
 h1 {
   font-family: 'Open Sans';
   color: #3E4951;
-  font-size: 2em;
+  font-size: 3.2em;
   font-weight: 800;
   text-align: center;
   padding-top: 88px;
+  line-height: 1.5;
+
+
 }
 
 /* If the screen size is 601px or more, set the font-size of h1 to 40px. */
@@ -160,17 +163,16 @@ h1 {
 
 h2 {
   font-family: 'Open Sans';
-  font-size: 4em;
+  font-size: 2.4em;
   font-weight: 700;
   text-align: center;
-  line-height: 3.2;
   padding-top: 40px;
 }
 
 h3 {
   font-family: 'Open Sans';
   color: #E3607F;
-  font-size: 2.6em;
+  font-size: 2.4em;
   font-weight: 700;
 }
 
@@ -204,7 +206,7 @@ h4{
 }
 
 p {
-  font-size: 1.6em;
+  font-size: 1.7em;
   font-weight: 400;
   line-height: 1.7;
 
@@ -355,6 +357,7 @@ footer {
   grid-column: span 6;
   margin: 0 auto;
   background-color: purple;
+  width: 375px;
 
 
 }
@@ -647,12 +650,6 @@ footer {
   }
 
 
-h1 {
-  padding-top: 96px;
-
-}
-
-
 .Statement {
   font-size: 2em;
  padding-bottom: 80px;
@@ -662,7 +659,13 @@ h1 {
 
 
 .IntroductionStatement {
+  padding-top: 96px;
   font-size: 4.8em;
+}
+
+.SecondHeader {
+  font-size: 4em;
+  width: 900px;
 }
 
 
