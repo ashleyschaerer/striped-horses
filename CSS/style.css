@@ -110,28 +110,6 @@ text-align: center;
 
 
 
-.Portrait {
-  margin: 0 auto;
-  padding-top: 88px;
-  padding-bottom: 20px;
-  grid-column: span 6;
-  display: grid;
-  width: 250px;
-  display: block;
-  align-items: center;
-
-}
-
-.Story {
-  /*padding: 16px;*/
-  grid-column: span 6;
-  max-width: 728px;
-  margin: 0 auto;
-  padding-left: 16px;
-  padding-right: 16px;
-
-}
-
 
 
 
@@ -148,7 +126,8 @@ h1 {
   color: #3E4951;
   font-size: 3.2em;
   font-weight: 800;
-  text-align: center;
+  text-align: left;
+  padding-left: 16px;
   padding-top: 88px;
   line-height: 1.5;
 
@@ -159,11 +138,10 @@ h1 {
 
 
 
-
-
 h2 {
   font-family: 'Open Sans';
-  font-size: 2.4em;
+  color: #3E4951;
+  font-size: 3.2em;
   font-weight: 700;
   text-align: center;
   padding-top: 40px;
@@ -185,59 +163,15 @@ h4{
   /*line-height: 4;*/
 }
 
-.biotext {
-  /*background-color: green;*/
-  padding-bottom: 72px;
-  padding-top: 16px;
-}
 
-.biotextmiddle {
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-
-.biotextdifferent {
-  padding-bottom: 72px;
-  /*background-color: yellow;*/
-}
-
-.biotextalso {
-  /*background-color: orange;*/
-}
 
 p {
-  font-size: 1.7em;
   font-weight: 400;
   line-height: 1.7;
-
-}
-
-.Feedback {
+  color: #707E88;
+  font-size: 1.7em;
   font-family: 'Open Sans';
-  font-size: 2.4em;
-  font-weight: 400;
-  font-style: italic;
-  color: #6B6D6B;
-}
 
-.FeedbackBold {
-  font-family: 'Open Sans';
-  font-weight: 600;
-  font-style: italic;
-  color: #6B6D6B;
-}
-
-.Tagline {
-  font-size: 1.8em;
-  font-family: 'Open Sans';
-  font-weight: 400;
-  text-align: center;
-  padding-bottom: 40px;
-  padding-top: 16px;
-}
-
-.ExtraBold {
-  font-weight: 700;
 }
 
 
@@ -356,16 +290,15 @@ footer {
   display: grid;
   grid-column: span 6;
   margin: 0 auto;
-  background-color: purple;
   width: 375px;
-
 
 }
 
 .Statement {
   padding-top: 42px;
   color: #707E88;
-  text-align: center;
+  text-align: left;
+  padding-left: 16px;
  padding-bottom: 40px;
   font-family: 'Open Sans';
   font-weight: 400;
@@ -407,9 +340,6 @@ footer {
   color: #262626;
 }
 
-/*.LinkProjectCaseStudy:hover {
-  color: #FF6F61;
-}*/
 
 .ProjectTextBold {
   font-weight: 700;
@@ -420,7 +350,18 @@ footer {
 }
 
 
-
+.AboutUsPhoto {
+  margin: 0 auto;
+  grid-column: span 6;
+  display: grid;
+  /*background-color: red;*/
+  overflow:inherit;
+  width: 100%;
+  /*padding-top: 56px;*/
+  max-width: 980px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
 
 
 
@@ -429,6 +370,48 @@ footer {
 
 @media screen and (min-width: 375px){
 
+
+  #mc_embed_signup {
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  grid-column: span 6;
+  display: grid;
+  width: 100%;
+  text-align: center;
+
+  }
+
+  .email {
+    background-color: white;
+    font-size: 1.7em;
+    border-radius: 8px;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    padding: 16px;
+    border: 1px;
+    border-color: #707E88;
+    border-style: solid;
+
+    grid-column: span 6;
+    display: grid;
+  }
+
+
+  .button {
+    background-color: #E3607F;
+    color: #FFFFFF;
+    font-size: 1.7em;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+    border: 0;
+    box-shadow: 0 4px 8px 0 rgba(227, 96, 127, 0.4), 0 6px 20px 0 rgba(227, 96, 127, 0.4);
+
+
+  }
 
 
   .feature {
@@ -468,10 +451,8 @@ footer {
 
 
   .screen-image {
-    /*width: 530px;*/
     margin: 0 auto;
     width: 80%;
-
     display: block;
     padding-top: 20px;
   }
@@ -479,7 +460,6 @@ footer {
 
 
   .mobile-screen {
-    /*height: 310px;*/
     height: 688px;
     width: 350px;
     border-radius: 2px;
@@ -491,14 +471,29 @@ footer {
   }
 
 
-.Story  {
-  padding-top: 50px;
-}
 
-  /*.container {
-    padding-left: 16px;
-    padding-right: 16px;
-  }*/
+  .AboutUs {
+    height: 688px;
+    width: 350px;
+    border-radius: 2px;
+    display: grid;
+    grid-column: span 6;
+    margin: 0 auto;
+    /*margin-bottom: 10px;*/
+
+  }
+
+  .AboutUsBody {
+  /*  color: #707E88;
+    font-size: 2em;
+    display: grid;
+    grid-column: span 6;
+    text-align: left;*/
+
+
+  }
+
+
 
 .Title {
   padding-left: 50px;
@@ -533,6 +528,59 @@ footer {
 
 
 @media screen and (min-width: 991px){
+
+
+  /*** Mailchimp ***/
+
+  #mc_embed_signup {
+  margin: 0 auto;
+  grid-column: span 6;
+  display: grid;
+  width: 482px;
+  text-align: center;
+
+  }
+
+  #mc_embed_signup_scroll {
+  }
+
+  .clear {
+    /**background-color: yellow;**/
+  }
+
+  .email {
+    background-color: white;
+    font-size: 1.7em;
+    border-radius: 8px;
+    width: 480px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 16px;
+    border: 1px;
+    border-color: #707E88;
+    border-style: solid;
+
+    grid-column: span 6;
+    display: grid;
+  }
+
+
+  .button {
+    background-color: #E3607F;
+    color: #FFFFFF;
+    font-size: 1.7em;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 480px;
+    height: 50px;
+    border: 0;
+    box-shadow: 0 4px 8px 0 rgba(227, 96, 127, 0.4), 0 6px 20px 0 rgba(227, 96, 127, 0.4);
+
+
+  }
+
+  /*** Mailchimp ***/
+
 
 
 
@@ -618,20 +666,34 @@ footer {
 
 
 
-
-  .WholeProcessBG {
-   padding-bottom: 128px;
+  .AboutUs {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    margin-top: 50px;
+    width: 955px;
+    grid-gap: 32px;
   }
 
-
-  .Divider {
-    /*margin-top: 178px;*/
-    margin-top: 128px;
-
+  .PhotoContainer {
+    display: grid;
+    margin: 0 auto;
+    /*background-color: green;*/
+    grid-column: 3fr;
   }
 
+.BodyContainer {
+  display: grid;
+  margin: 0 auto;
+  grid-column: 3fr;
+  padding-top: 16px;
+  height: 200px;
+}
 
+.BodyText {
+  display: grid;
+  grid-column: span 6;
 
+}
 
 
   .Tagline {
@@ -640,14 +702,6 @@ footer {
     margin-top: 16px;
   }
 
-  .Portrait {
-    padding-top: 190px;
-
-  }
-
-  .Story {
-    padding-top: 100px;
-  }
 
 
 .Statement {
@@ -665,7 +719,7 @@ footer {
 
 .SecondHeader {
   font-size: 4em;
-  width: 900px;
+  width: 955px;
 }
 
 
@@ -723,19 +777,9 @@ footer {
 
 }
 
-/*.GridEmail {
-  background-color: orange;
-  display: grid;
-  grid-column: span 3;
-  text-align: right;
-  margin-left: 250px;
-  margin-bottom: 50px;
-  padding-top: 5px;
-}*/
 
 
 .icons {
-  /*background-color: lightblue;*/
   display: grid;
   grid-column: span 1;
   grid-template-columns: 2fr 2fr 2fr;
