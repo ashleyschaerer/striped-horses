@@ -361,7 +361,7 @@ footer {
   overflow:inherit;
   width: 100%;
   /*padding-top: 56px;*/
-  max-width: 980px;
+  max-width: 500px;
   margin: 0 auto;
   border-radius: 8px;
 }
@@ -478,8 +478,10 @@ footer {
 
 
   .AboutUs {
-    height: 688px;
-    width: 350px;
+    /*height: 688px;*/
+    /*width: 350px;*/
+    padding-left: 16px;
+    padding-right: 16px;
     border-radius: 2px;
     display: grid;
     grid-column: span 6;
