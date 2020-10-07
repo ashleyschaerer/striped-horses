@@ -146,8 +146,8 @@ text-align: center;
 h1 {
   font-family: 'Open Sans';
   color: #3E4951;
-  font-size: 3.2em;
-  font-weight: 600;
+  font-size: 2em;
+  font-weight: 800;
   text-align: center;
   padding-top: 88px;
 }
@@ -160,8 +160,8 @@ h1 {
 
 h2 {
   font-family: 'Open Sans';
-  font-size: 2.4em;
-  font-weight: 600;
+  font-size: 4em;
+  font-weight: 700;
   text-align: center;
   line-height: 3.2;
   padding-top: 40px;
@@ -308,17 +308,17 @@ footer {
 
 .Copyright {
   font-family: 'Open Sans';
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: 600;
   letter-spacing: 0.1em;
-  color: #6B6D6B;
+  color: #3E4951;
   /*background-color: orange;*/
   padding-top: 12px;
 }
 
 
 .Chapter {
-  color: #FF6F61;
+  color: #3E4951;
 }
 
 
@@ -341,13 +341,21 @@ footer {
 
 }
 
-
 .IntroductionStatement {
   display: grid;
   grid-column: span 6;
   margin: 0 auto;
   font-weight: 700;
   font-family: 'Open Sans';
+
+}
+
+.SecondHeader {
+  display: grid;
+  grid-column: span 6;
+  margin: 0 auto;
+  background-color: purple;
+
 
 }
 
@@ -359,8 +367,7 @@ footer {
   font-family: 'Open Sans';
   font-weight: 400;
   grid-column: span 6;
-
-  max-width: 1312px;
+  max-width: 1020px;
   margin: 0 auto;
 
 }
@@ -544,6 +551,8 @@ footer {
   .FeatureBody {
     color: #707E88;
     font-size: 2em;
+    font-family: 'Open Sans';
+    font-weight: 400;
     display: grid;
     grid-column: span 6;
     text-align: center;
@@ -643,10 +652,6 @@ h1 {
 
 }
 
-/*h2 {
-
-  padding-top: 200px;
-}*/
 
 .Statement {
   font-size: 2em;
@@ -671,9 +676,6 @@ h1 {
 }
 
 
-h2 {
-  margin-top: 88px;
-}
 
 .BackToTopButtonEnd {
   display: grid;
