@@ -53,7 +53,7 @@ text-align: center!important;
 }
 
 
-.button {
+/*.button {
   background-color: #E3607F!important;
   color: #FFFFFF!important;
   font-size: 1.7em!important;
@@ -64,8 +64,9 @@ text-align: center!important;
   border: 0!important;
   box-shadow: 0 4px 8px 0 rgba(227, 96, 127, 0.4), 0 6px 20px 0 rgba(227, 96, 127, 0.4)!important;
 
+}*/
 
-}
+
 
 /*** Mailchimp ***/
 
