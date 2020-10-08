@@ -166,7 +166,7 @@ h4{
 
 p {
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.9;
   color: #707E88;
   font-size: 1.7em;
   font-family: 'Open Sans';
@@ -357,13 +357,9 @@ footer {
   margin: 0 auto;
   grid-column: span 6;
   display: grid;
-  /*background-color: red;*/
   overflow:inherit;
-  width: 100%;
-  /*padding-top: 56px;*/
-  max-width: 500px;
-  margin: 0 auto;
-  border-radius: 8px;
+  border-radius: 16px;
+  max-width: 240px;
 }
 
 
@@ -478,28 +474,21 @@ footer {
 
 
   .AboutUs {
-    /*height: 688px;*/
-    /*width: 350px;*/
+    /*background-color: blue;*/
     padding-left: 16px;
     padding-right: 16px;
+    padding-top: 40px;
     border-radius: 2px;
     display: grid;
     grid-column: span 6;
     margin: 0 auto;
-    /*margin-bottom: 10px;*/
 
   }
 
-  .AboutUsBody {
-  /*  color: #707E88;
-    font-size: 2em;
-    display: grid;
-    grid-column: span 6;
-    text-align: left;*/
-
+  .BodyText {
+    padding-top: 24px;
 
   }
-
 
 
 .Title {
@@ -675,30 +664,36 @@ footer {
 
   .AboutUs {
     display: grid;
-    grid-template-columns: 3fr 3fr;
-    margin-top: 50px;
+    grid-template-columns: 2fr 4fr;
+    margin-top: 56px;
+    padding-top: 0px;
+
     width: 955px;
-    grid-gap: 32px;
+    background-color: orange;
+    /*grid-gap: 8px;*/
   }
 
   .PhotoContainer {
+    background-color: pink;
     display: grid;
     margin: 0 auto;
-    /*background-color: green;*/
-    grid-column: 3fr;
+    grid-column: 2fr;
+    padding-right: 80px;
   }
 
 .BodyContainer {
   display: grid;
   margin: 0 auto;
-  grid-column: 3fr;
-  padding-top: 16px;
-  height: 200px;
+  grid-column: 4fr;
+  /*padding-top: 16px;*/
+  /*height: 200px;*/
 }
 
 .BodyText {
   display: grid;
   grid-column: span 6;
+  padding-top: 0px;
+
 
 }
 
@@ -728,6 +723,7 @@ footer {
 .SecondHeader {
   font-size: 4em;
   width: 955px;
+  margin-top: 80px;
 }
 
 
