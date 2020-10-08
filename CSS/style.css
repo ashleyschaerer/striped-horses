@@ -54,7 +54,7 @@ text-align: center;
 
 
 .button {
-  background-color: #E3607F;
+  background-color: #E3607F!important;
   color: #FFFFFF;
   font-size: 1.7em;
   border-radius: 8px;
