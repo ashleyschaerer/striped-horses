@@ -669,12 +669,12 @@ footer {
     padding-top: 0px;
 
     width: 955px;
-    background-color: orange;
+  /*  background-color: orange;*/
     /*grid-gap: 8px;*/
   }
 
   .PhotoContainer {
-    background-color: pink;
+  /*  background-color: pink;*/
     display: grid;
     margin: 0 auto;
     grid-column: 2fr;
