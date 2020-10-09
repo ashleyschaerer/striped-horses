@@ -371,7 +371,7 @@ footer {
 
 
 .Statement {
-  max-width: 640px;
+  max-width: 720px;
 
 }
 
@@ -382,6 +382,7 @@ footer {
   grid-column: span 6!important;
   display: grid!important;
   width: 100%!important;
+  max-width: 500px;
   text-align: center!important;
 
   }
