@@ -300,14 +300,13 @@ footer {
   padding-top: 42px;
   padding-left: 16px;
   padding-right: 16px;
+  padding-bottom: 40px;
   color: #707E88;
   text-align: left;
-  padding-left: 16px;
- padding-bottom: 40px;
   font-family: 'Open Sans';
   font-weight: 400;
   grid-column: span 6;
-  max-width: 1020px;
+  /*max-width: 1020px;*/
   margin: 0 auto;
 
 }
@@ -371,7 +370,10 @@ footer {
 @media screen and (min-width: 375px){
 
 
+.Statement {
+  max-width: 560px;
 
+}
 
   #mc_embed_signup {
   margin: 0 auto!important;
@@ -385,11 +387,11 @@ footer {
   }
 
   .email {
-    /*background-color: white!important;
+    background-color: white!important;
     font-size: 1.7em!important;
     border-color: #707E88!important;
     border-style: solid!important;
-    border-radius: 8px!important;*/
+    border-radius: 8px!important;
     width: 100%!important;
     height: 50px!important;
     margin: 0 auto!important;
@@ -715,6 +717,8 @@ footer {
   padding-top: 72px;
   color: #707E88;
   text-align: center;
+  max-width: 1020px;
+
 }
 
 
