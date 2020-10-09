@@ -304,6 +304,9 @@ footer {
   grid-column: span 6;
   margin: 0 auto;
   width: 375px;
+  padding-top: 80px;
+
+  /*background-color: pink;*/
 
 }
 
@@ -333,6 +336,9 @@ footer {
   margin-right: 30px;
     display: grid;
   grid-column: span 6;
+  /*background-color: red;*/
+  padding-top: 40px;
+
 }
 
 
@@ -491,7 +497,7 @@ footer {
     /*background-color: blue;*/
     padding-left: 16px;
     padding-right: 16px;
-    padding-top: 40px;
+    padding-top: 56px;
     border-radius: 2px;
     display: grid;
     grid-column: span 6;
@@ -664,6 +670,7 @@ footer {
       width: 300px;
       height: 720px;
       margin: 20px;
+      /*background-color: green;*/
     }
 
 
@@ -671,7 +678,8 @@ footer {
         width: 280px;
         margin: 0 auto;
         display: block;
-        padding-top: 40px;
+        /*padding-top: 40px;*/
+
       }
 
 
@@ -679,12 +687,11 @@ footer {
   .AboutUs {
     display: grid;
     grid-template-columns: 2fr 4fr;
-    margin-top: 56px;
+    margin-top: 80px;
     padding-top: 0px;
 
     width: 955px;
-  /*  background-color: orange;*/
-    /*grid-gap: 8px;*/
+    /*background-color: orange;*/
   }
 
   .PhotoContainer {
