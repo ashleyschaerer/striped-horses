@@ -127,7 +127,7 @@ h1 {
   color: #3E4951;
   font-size: 3.2em;
   font-weight: 800;
-  text-align: left;
+  text-align: center;
   padding-top: 88px;
   line-height: 1.5;
 
@@ -302,7 +302,7 @@ footer {
   padding-right: 16px;
   padding-bottom: 40px;
   color: #707E88;
-  text-align: left;
+  text-align: center;
   font-family: 'Open Sans';
   font-weight: 400;
   grid-column: span 6;
