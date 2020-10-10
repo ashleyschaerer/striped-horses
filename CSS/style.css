@@ -176,6 +176,7 @@ p {
   font-size: 1.7em;
   font-family: 'Open Sans';
 
+
 }
 
 .BodyText {
@@ -188,7 +189,7 @@ p {
 
 
 footer {
-  background-color: #DAE1E7;
+  background-color: #E3607F;
   display: grid;
   grid-gap: 16px;
   grid-column: span 6;
@@ -206,10 +207,9 @@ footer {
 
 .FooterText {
   grid-column: span 6;
-  color: #3E4951;
+  color: #FFFFFF;
   text-align: center;
   padding-top: 40px;
-
   /*max-width: 482px;*/
 }
 
@@ -254,9 +254,12 @@ footer {
 
 .CopyrightAndButton {
   display: grid;
+  margin: 0 auto;
   grid-column: span 6;
   grid-gap: 16px;
-  grid-template-columns: 5fr 1fr;
+  /*grid-template-columns: 5fr 1fr;*/
+  color: white;
+
   /*background-color: yellow;*/
 }
 
@@ -265,9 +268,10 @@ footer {
   font-size: 1em;
   font-weight: 600;
   letter-spacing: 0.1em;
-  color: #3E4951;
+  color: white;
   /*background-color: orange;*/
-  padding-top: 12px;
+  /*padding-top: 12px;*/
+  text-align: center;
 }
 
 
