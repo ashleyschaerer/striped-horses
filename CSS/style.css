@@ -202,15 +202,24 @@ footer {
   /*margin: 0 auto;*/
 }
 
+a:link {
+    text-decoration: none;
+}
 
-
+.GridFooterText {
+  display: grid;
+  grid-column: span 6;
+  /*background-color: yellow;*/
+  padding-top: 40px;
+  text-align: center;
+  margin: 0 auto;
+}
 
 .FooterText {
   grid-column: span 6;
   color: #FFFFFF;
   text-align: center;
   padding-top: 40px;
-  /*max-width: 482px;*/
 }
 
 .ResumeandPdfIcon {
@@ -800,17 +809,18 @@ footer {
   padding-right: 230px;*/
   width: 980px;
   margin: 0 auto;
-  background-color: beige;
+  /*background-color: beige;*/
 
 }
 
-.GridFooterText {
+/*.GridFooterText {
   display: grid;
   grid-column: span 6;
   background-color: yellow;
   padding-top: 40px;
   text-align: center;
-}
+  margin: 0 auto;
+}*/
 
 /*.ResumeandPdfIcon {
   display: grid;
