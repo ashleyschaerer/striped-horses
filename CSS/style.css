@@ -186,6 +186,17 @@ p {
 
 }
 
+.ContactText {
+  /*max-width: 720px;*/
+  margin-bottom: 40px;
+
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
 
 
 footer {
@@ -275,7 +286,7 @@ a:link {
 .Copyright {
   font-family: 'Open Sans';
   font-size: 1em;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 0.1em;
   color: white;
   /*background-color: orange;*/
@@ -400,6 +411,15 @@ a:link {
   max-width: 240px;
 }
 
+.IGIcon {
+  margin: 0 auto;
+  grid-column: span 6;
+  display: grid;
+  overflow:inherit;
+  max-width: 40px;
+  filter: invert(100%);
+
+}
 
 
 /* Media Queries */
@@ -519,11 +539,20 @@ a:link {
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 56px;
+    display: grid;
+    grid-column: span 6;
+    margin: 0 auto;
+  }
+
+  .ContactUs {
+    /*background-color: blue;*/
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 56px;
     border-radius: 2px;
     display: grid;
     grid-column: span 6;
     margin: 0 auto;
-
   }
 
   /*.BodyText {
@@ -735,10 +764,51 @@ a:link {
   display: grid;
   grid-column: span 6;
   padding-top: 0px;
+}
+
+
+.ContactUs {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  /*margin-top: 80px;*/
+  padding-top: 0px;
+  grid-gap: 40px;
+  padding-right: 300px;
+  background-color: orange;
+}
+
+.ContactContainer {
+  display: grid;
+  grid-column: 3fr;
+ /*padding-top: 16px;*/
+/* height: 200px;*/
+ background-color: yellow;
+
+}
+.ContactText {
+  display: grid;
+  grid-column: span 6;
+  padding-top: 0px;
+
 
 
 }
 
+.IGContainer {
+  background-color: pink;
+  display: grid;
+  grid-column: 3fr;
+  padding-right: 170px;
+  /*padding-right: 80px;*/
+}
+
+
+.IGIcon {
+  margin: 0 auto;
+  grid-column: span 6;
+  display: grid;
+
+}
 
   .Tagline {
 
@@ -783,7 +853,7 @@ a:link {
 
 
 
-.BackToTopButtonEnd {
+/*.BackToTopButtonEnd {
   display: grid;
   grid-template-columns: 2fr;
   margin-top: 80px
@@ -794,12 +864,8 @@ a:link {
   grid-column: span 6;
   padding-left: 720px;
 }
+*/
 
-
-footer {
-  margin-top: 190px;
-
-}
 
 .gridfooter {
   display: grid;
