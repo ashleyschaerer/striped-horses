@@ -430,11 +430,10 @@ a:link {
 
 @media screen and (min-width: 375px){
 
+  .IntroductionStatement {
+    padding-top: 48px;
+  }
 
-.Statement {
-  max-width: 720px;
-
-}
 
   #mc_embed_signup {
   margin: 0 auto!important;
